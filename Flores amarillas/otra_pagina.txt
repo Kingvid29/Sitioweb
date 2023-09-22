@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otra Página</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 24px;
+            padding: 50px;
+        }
+        .button {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elige una opción ❤️</h1>
+    <button class="button" onclick="elegirFlor(1)">1 Flor</button>
+    <button class="button" onclick="elegirFlor(12)">12 Flores : )</button>
+
+    <script>
+        function elegirFlor(cantidad) {
+            alert("Has elegido " + cantidad + " flores. ¡Gracias por tu elección!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Flor</title>
+    <style>
+        body {
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 50px;
+        }
+        .flower {
+            width: 500px; /* Ancho ampliado de la flor */
+            height: auto; /* Mantenemos la relación de aspecto original */
+        }
+    </style>
+</head>
+<body>
+    <h1>1 Una Flor para otr Flor</h1>
+    <img src="https://i.pinimg.com/750x/9d/ec/d1/9decd13b40d9ae58ae69a0facac25a62.jpg" alt="Flor Amarilla" class="flower">
+</body>
+</html>
