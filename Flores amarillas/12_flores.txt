@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Flores</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/af/dc/15/afdc15d2560882a4bcafd412e44e3d09.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            font-size: 18px;
+            padding: 50px;
+            color: #ffffff;
+        }
+        .message {
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>En este Día de las Flores Amarillas</h1>
+        <p>Quiero expresarte cuánto iluminas mi vida de la misma manera en que estas flores llenan de luz y alegría un día soleado. Tu amor es un rayo de sol constante que atraviesa las nubes más grises y hace que cada momento a tu lado sea un regalo.</p>
+        <p>Tus sonrisas, tu ternura y tu cariño son como pétalos suaves que acarician mi corazón, creando un jardín de amor que florece en nuestro camino. Así como las flores amarillas representan la amistad y la alegría, tú representas todo lo hermoso y feliz en mi vida.</p>
+        <p>Cada día a tu lado es como un campo de flores amarillas en plena primavera, radiante y lleno de vida. Tu amor es la brisa que acaricia mis días y la luz que guía mis noches. No importa cuántos obstáculos enfrentemos en nuestro camino, siempre estaré aquí, regalándote todo mi amor, apoyo y compromiso.</p>
+        <p>Feliz Día de las Flores Amarillas, mi amor. Que nuestra relación siga floreciendo con el mismo brillo y calidez que estas hermosas flores representan. Te amo más de lo que las palabras pueden expresar y estoy agradecido por cada día que paso a tu lado.</p>
+
+
+<h1>Psdta , Te mereces mas que esta flores❤️</h1>
+    </div>
+</body>
+</html>

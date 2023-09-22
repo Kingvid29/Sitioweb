@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Flor</title>
+    <!-- Agrega la biblioteca de confeti -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/vector-premium/fondo-marco-pintado-mano-colorido-espacio-copia-blanco_23-2148427587.jpg?w=1380');
+            background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área del body */
+            background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+            text-align: center;
+            padding: 50px;
+        }
+        .flower {
+            width: 500px; /* Ancho ampliado de la flor */
+            height: auto; /* Mantenemos la relación de aspecto original */
+        }
+    </style>
+</head>
+<body>
+    <h1>Una Flor para otra Flor</h1>
+    <img src="https://i.pinimg.com/750x/9d/ec/d1/9decd13b40d9ae58ae69a0facac25a62.jpg" alt="Flor Amarilla" class="flower">
+    
+    <!-- Confeti -->
+    <div id="confetti-container"></div>
+
+    <script>
+        // Función para iniciar el efecto de confeti
+        function iniciarConfeti() {
+            var container = document.getElementById("confetti-container");
+            var confettiSettings = { target: 'confetti-container' };
+            var confetti = new ConfettiGenerator(confettiSettings);
+            confetti.render();
+
+            // Detener el confeti después de 5 segundos
+            setTimeout(function() {
+                confetti.clear();
+            }, 5000); // 5000 milisegundos = 5 segundos
+        }
+
+        // Llama a la función para iniciar el confeti cuando la página se haya cargado
+        window.onload = function() {
+            iniciarConfeti();
+        }
+    </script>
+</body>
+</html>
